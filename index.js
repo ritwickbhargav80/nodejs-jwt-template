@@ -4,10 +4,11 @@ const compression = require("compression");
 const morgan = require("morgan");
 const consola = require("consola");
 const helmet = require("helmet");
+
 const { NODE_ENV, PORT } = require("./config/index");
 const { notFound, sendErrors } = require("./config/errorHandler");
-const app = express();
 
+const app = express();
 const cors = require("cors");
 require("dotenv").config();
 require("./config/dbconnection");
