@@ -8,7 +8,7 @@
 
 ### Features
 
-- feature 0
+- Protected URLs using JWT
 - feature 1
 - feature 2
 
