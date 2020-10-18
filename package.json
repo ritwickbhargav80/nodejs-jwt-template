@@ -1,5 +1,5 @@
 {
-    "name": "node-starter-code",
+    "name": "node-starter-code-jwt",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -7,7 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "nodemon index.js"
     },
-    "author": "ritiksr25",
+    "author": "ritwickbhargav80",
     "license": "ISC",
     "dependencies": {
         "bcryptjs": "^2.4.3",
